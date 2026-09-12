@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Prints da webcam: ficam so na maquina local.
+# Mostram o ambiente e as pessoas na cena, e o repositorio e publico.
+entregas/*
+# A validacao sintetica nao tem ninguem na imagem e comprova o teste automatico.
+!entregas/aula01_validacao.png
+!entregas/.gitkeep
