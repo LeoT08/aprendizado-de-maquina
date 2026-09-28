@@ -1,0 +1,11 @@
+{
+  "amostras": 1659,
+  "lutas_gravadas": 6,
+  "acuracia_imitacao": 0.9325,
+  "latencia_media_ms": 10.6,
+  "latencia_p95_ms": 12.6,
+  "torneio_vs_bot": "3 x 0",
+  "torneio_vencido": true,
+  "frente_na_borda": 0.509,
+  "copa": "3 x 0"
+}

@@ -1,0 +1,11 @@
+rodada,gesto_real,gesto_previsto,confianca,acertou,condicao,luminosidade_roi,prob_pedra,prob_papel,prob_tesoura,momento
+1,PAPEL,PAPEL,0.6861,True,iluminacao_fraca,131.2,0.2999,0.6861,0.014,17:44:45
+2,PAPEL,PAPEL,0.588,True,iluminacao_fraca,140.0,0.4033,0.588,0.0086,17:44:47
+3,PEDRA,PEDRA,0.6049,True,iluminacao_fraca,131.3,0.6049,0.3869,0.0082,17:45:26
+4,PEDRA,PAPEL,0.5621,False,iluminacao_fraca,124.6,0.4263,0.5621,0.0116,17:45:29
+5,PEDRA,PAPEL,0.6989,False,iluminacao_fraca,125.6,0.287,0.6989,0.0141,17:45:32
+6,PEDRA,PAPEL,0.8485,False,iluminacao_fraca,124.7,0.1356,0.8485,0.0159,17:45:35
+7,TESOURA,PAPEL,0.4993,False,iluminacao_fraca,124.8,0.016,0.4993,0.4847,17:45:51
+8,TESOURA,TESOURA,0.4948,True,iluminacao_fraca,123.8,0.0146,0.4906,0.4948,17:45:55
+9,TESOURA,TESOURA,0.5544,True,iluminacao_fraca,84.1,0.0957,0.35,0.5544,17:46:15
+10,TESOURA,TESOURA,0.5219,True,iluminacao_fraca,88.1,0.1026,0.3755,0.5219,17:46:17

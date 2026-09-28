@@ -1,0 +1,13 @@
+modelo,fator_brilho,acuracia,confianca_media
+baseline,1.0,0.8857,0.7436
+baseline,0.75,0.8857,0.7039
+baseline,0.5,0.8857,0.635
+baseline,0.35,0.8571,0.5622
+baseline,0.25,0.7714,0.4968
+baseline,0.15,0.6,0.4308
+augmentation,1.0,0.8857,0.7574
+augmentation,0.75,0.8,0.7233
+augmentation,0.5,0.6571,0.701
+augmentation,0.35,0.5714,0.7198
+augmentation,0.25,0.3429,0.8079
+augmentation,0.15,0.3429,0.9236

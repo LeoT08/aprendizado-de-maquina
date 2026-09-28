@@ -1,0 +1,14 @@
+{
+  "acuracia_teste": 0.8857,
+  "imagens_treino": 103,
+  "imagens_teste": 35,
+  "epocas": 12,
+  "perda_inicial": 1.1661,
+  "perda_final": 0.3652,
+  "parametros": 529347,
+  "por_classe": {
+    "PEDRA": 45,
+    "PAPEL": 45,
+    "TESOURA": 48
+  }
+}

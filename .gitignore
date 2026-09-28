@@ -1,11 +1,36 @@
+# Ambiente e temporarios
 .venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
 
-# Prints da webcam: ficam so na maquina local.
-# Mostram o ambiente e as pessoas na cena, e o repositorio e publico.
-entregas/*
-# A validacao sintetica nao tem ninguem na imagem e comprova o teste automatico.
-!entregas/aula01_validacao.png
-!entregas/.gitkeep
+# Material didatico do professor: slides e zips das aulas nao sao nossos para republicar
+Aulas/
+*.pptx
+igor coisas.zip
+
+# Pacotes de upload: duplicam byte a byte as pastas que ja estao versionadas
+*.zip
+
+# ---------------------------------------------------------------------------
+# Privacidade: este repositorio e publico.
+# ---------------------------------------------------------------------------
+
+# Prints da webcam da Aula 1: mostram o ambiente e as pessoas na cena.
+/entregas/*
+!/entregas/aula01_validacao.png
+!/entregas/.gitkeep
+
+# Entrega 6: quadros de tela cheia e imagens descartadas em que aparecem a
+# pessoa e o comodo.
+entrega_6/entregas/webcam_previsao_*.png
+entrega_6/descartadas/
+entrega_6/material_de_trabalho/descartadas/
+entrega_6/material_de_trabalho/revisao_*.png
+
+# Dataset de jokenpo (138 fotos): em parte delas o rosto aparece nitido, dentro
+# de casa. O relatorio, as metricas e o modelo treinado ficam; as fotos nao.
+entrega_6/jokenpo_dataset/*
+!entrega_6/jokenpo_dataset/LEIA-ME.md
+entrega_6/entregas/jokenpo_dataset/
+entrega_6/material_de_trabalho/amostra_dataset.png
